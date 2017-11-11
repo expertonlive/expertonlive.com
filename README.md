@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/expertonlive/expertonlive.com.svg?branch=master)](https://travis-ci.org/expertonlive/expertonlive.com)
+
+
 # expertonlive.com
 
 > online platform for conducting live sessions
