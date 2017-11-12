@@ -19,7 +19,7 @@
             </a>
           </li>
           <li class="header__item">
-              <img class="user-avatar user-avatar--small" src="../assets/img/default-user.png" alt="">
+              <img class="user-avatar user-avatar--small" src="../assets/images/default-user.png" alt="">
           </li> 
         </ul>
     </div>

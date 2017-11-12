@@ -23,7 +23,7 @@ $fa-font-path: "~font-awesome/fonts";
 .preloader {
   display: block;
   padding: 150px;
-  background: url('../assets/img/preloader.gif') no-repeat 50% 50% transparent;
+  background: url('/assets/img/preloader.gif') no-repeat 50% 50% transparent;
   transition: width 350ms;
   transform: scale(0.5);
 }
