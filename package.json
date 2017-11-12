@@ -16,6 +16,7 @@
     "commit": "git-cz"
   },
   "dependencies": {
+    "codecov.io": "^0.1.6",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
