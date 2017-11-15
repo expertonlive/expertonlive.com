@@ -6,6 +6,7 @@ The following is a set of guidelines for contributing to the project. Use your b
 - [Things You Can Work On](#things-you-can-work-on)
 - [How Team Members Can Contribute?](#how-team-members-can-contribute)
 - [How Non-Team Members Can Contribute?](#how-non-team-members-can-contribute)
+- [Build Setup](#build-setup)
 - [Create a New Branch To Work On](#create-a-new-branch-to-work-on)
 - [How To Commit Messages](#how-to-commit-messages)
 - [Creating A Pull Request](#creating-a-pull-request)
@@ -127,6 +128,31 @@ Do this prior to every time you create a branch for a PR:
 
    This will overwrite the staging branch of your fork.
 
+
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run e2e tests
+npm run e2e
+
+# run all tests
+npm test
+```
 
 ## Create a New Branch To work On
 
