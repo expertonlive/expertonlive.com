@@ -1,9 +1,15 @@
 {
   "name": "expertonlive.com",
   "version": "1.0.0",
-  "description": "online platform for conducting live sessions",
+  "description": "online platform to conduct live coding sessions",
   "author": "Anand Kumar <2anandkr@gmail.com>",
-  "private": true,
+  "contributors": [
+    "Anand Kumar <2anandkr@gmail.com>",
+    "Mani Rana <rana.mani.pratap@gmail.com>",
+    "Muhsin K <muhsinkeramam@gmail.com>",
+    "Satya Prakash <spswain.14@gmail.com>",
+    "Prem Chand <reach2prem@gmail.com>"
+  ],
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "npm run dev",
