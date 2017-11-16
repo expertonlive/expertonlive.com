@@ -4,7 +4,7 @@
       <li v-for="(item, index) in items" :key="index">
         <a :href="item.link" 
            class="popup-menu__link"
-           @click="selectItem(index, $event)">
+           @click="(trackSelected ? selectItem(index, $event): null)">
           <template v-if="item.icon">
             <i 
               class="popup-menu__icon fa" 
@@ -30,7 +30,7 @@ import Popup from '@/components/Popup';
 
 export default {
   components: { Popup },
-  props: ['items', 'left', 'top', 'cue'],
+  props: ['trackSelected', 'items', 'left', 'top', 'cue'],
   methods: {
     selectItem(index, event) {
       event.preventDefault();

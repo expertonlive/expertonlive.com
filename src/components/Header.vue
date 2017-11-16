@@ -26,6 +26,7 @@
                 :top="20" 
                 :cue="'right'"
                 :items="menuItems"
+                :trackSelected="false"
                 @selected="onSelected">
               </PopupMenu>
               </a>
