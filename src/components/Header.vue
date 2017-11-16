@@ -19,7 +19,16 @@
             </a>
           </li>
           <li class="header__item">
+              <a href="#">
               <img class="user-avatar user-avatar--small" src="../assets/images/default-user.png" alt="">
+              <PopupMenu 
+                :left="-120" 
+                :top="20" 
+                :cue="'right'"
+                :items="menuItems"
+                @selected="onSelected">
+              </PopupMenu>
+              </a>
           </li> 
         </ul>
     </div>
@@ -27,8 +36,26 @@
 </template>
 
 <script>
+import PopupMenu from '@/components/PopupMenu';
+
 export default {
   // name: 'Header',
+  components: { PopupMenu },
+  data() {
+    return {
+      menuItems: [
+        { icon: 'user-circle-o', label: 'User', link: '#' },
+        { icon: 'dashboard', label: 'Dashboard', link: '/dash' },
+        { icon: 'sign-out', label: 'Logout', link: '#' },
+      ],
+    };
+  },
+
+  methods: {
+    onSelected(item) {
+      console.log('clicked item: ', item);
+    },
+  },
 };
 </script>
 
