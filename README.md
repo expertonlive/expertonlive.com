@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/expertonlive/expertonlive.com.svg?branch=master)](https://travis-ci.org/expertonlive/expertonlive.com)
-
+[![CodeFactor](https://www.codefactor.io/repository/github/muhzi4u/expertonlive.com/badge)](https://www.codefactor.io/repository/github/muhzi4u/expertonlive.com)
 
 # expertonlive.com
 
